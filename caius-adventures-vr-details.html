@@ -37,35 +37,23 @@
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center justify-content-between">
 
-      <h1 class="logo"><a href="index.html">DevFolio</a></h1>
+      <h1 class="logo"><a href="index.html">Cédric Membrez - Mixed Reality Developer</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto " href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link scrollto " href="#work">Work</a></li>
-          <li><a class="nav-link scrollto " href="#blog">Blog</a></li>
-          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+          <li><a class="nav-link scrollto active" href="./index.html#home">Home</a></li>
+          <li><a class="nav-link scrollto" href="./index.html#about">About</a></li>
+          <li><a class="nav-link scrollto" href="./index.html#skills">Skills</a></li>
+          <li class="dropdown"><a href="./index.html#portfolio"><span>Portfolio</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
+              <li><a href="./ar-escape-room-details.html">AR Escape Room</a></li>
+              <li><a href="./caius-adventures-vr-details.html">Caius Adventures VR</a></li>
+              <li><a href="./space-invaders-crazy-ludi-episode-details.html">Space Invaders - Crazy Ludi</a></li>
             </ul>
           </li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <li><a class="nav-link scrollto" href="./index.html#contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -73,17 +61,20 @@
     </div>
   </header><!-- End Header -->
 
-  <div class="hero hero-single route bg-image" style="background-image: url(assets/img/overlay-bg.jpg)">
+  <div class="hero hero-single route bg-image" style="background-image: url(assets/img/black-bg.jpg)">
     <div class="overlay-mf"></div>
     <div class="hero-content display-table">
       <div class="table-cell">
         <div class="container">
-          <h2 class="hero-title mb-4">Portfolio Details</h2>
+          <h2 class="hero-title mb-4">Caius Adventures VR</h2>
           <ol class="breadcrumb d-flex justify-content-center">
             <li class="breadcrumb-item">
-              <a href="#">Home</a>
+              <a href="./index.html#home">Home</a>
             </li>
-            <li class="breadcrumb-item active">Portfolio Details</li>
+            <li class="breadcrumb-item">
+              <a href="./index.html#portfolio">Portfolio</a>
+            </li>
+            <li class="breadcrumb-item active">Caius Adventures VR</li>
           </ol>
         </div>
       </div>
@@ -103,18 +94,20 @@
               <div class="swiper-wrapper align-items-center">
 
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio-details-1.jpg" alt="">
+                  <img src="assets/img/caius-adventures-vr/HomeVillage.png" alt="illustration of the village in caius adventures VR">
                 </div>
 
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio-details-2.jpg" alt="">
+                  <img src="assets/img/caius-adventures-vr/FirstMonster.png" alt="illustration of a monster">
                 </div>
 
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio-details-3.jpg" alt="">
+                  <img src="assets/img/caius-adventures-vr/Dungeon1Boss.PNG" alt="illustration of the boss of dungeon">
                 </div>
 
               </div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
               <div class="swiper-pagination"></div>
             </div>
           </div>
@@ -123,16 +116,26 @@
             <div class="portfolio-info">
               <h3>Project information</h3>
               <ul>
-                <li><strong>Category</strong>: Web design</li>
-                <li><strong>Client</strong>: ASU Company</li>
-                <li><strong>Project date</strong>: 01 March, 2020</li>
-                <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
+                <li><strong>Category</strong>: Virtual Reality</li>
+                <li><strong>Platform</strong>: Meta Quest 2</li>
+                <li><strong>Project date</strong>: 16 February, 2022</li>
+                <li><strong>WebGL version</strong>: <a href="https://play.unity.com/mg/other/webgl-builds-54983">link to Unity Play</a></li>
               </ul>
             </div>
             <div class="portfolio-description">
-              <h2>This is an example of portfolio detail</h2>
+              <h2>Low poly adventure game from scratch</h2>
               <p>
-                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
+                My first video game and first attempt to use virtual reality.
+                I used Blender to create the low poly assets such as sword, houses and monsters, 
+                as well as GIMP to model some of the texture for the floor and walls. 
+              </p>
+              <p>
+                A great learning experience in developing a game where a clear focus on some aspect of the tetrad (aesthetics, story, technology, and mechanics)
+                is essential to achieve a satisfying quality in the implementation.
+              </p>
+              <p>
+                This was a semester project at university. Due to hardware issue (my GPU was not supported anymore during development), 
+                the video game was presented as WebGL during the end of the semester.
               </p>
             </div>
           </div>
@@ -158,7 +161,8 @@
               Licensing information: https://bootstrapmade.com/license/
               Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=DevFolio
             -->
-              Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+              Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a><br>
+              <a href="https://www.freepik.com/free-photo/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall_11712558.htm#query=black%20background&position=0&from_view=keyword&track=ais">Top background picture by benzoix</a> on Freepik
             </div>
           </div>
         </div>

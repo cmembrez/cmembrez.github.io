@@ -5,12 +5,12 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>DevFolio Bootstrap Portfolio Template - Portfolio Details</title>
+  <title>Cédric Membrez - AR Escape Room</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/piano-icon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Vendor CSS Files -->
@@ -37,35 +37,26 @@
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center justify-content-between">
 
-      <h1 class="logo"><a href="index.html">DevFolio</a></h1>
+      <h1 class="logo"><a href="index.html">Cédric Membrez - Mixed Reality Developer</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto " href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link scrollto " href="#work">Work</a></li>
-          <li><a class="nav-link scrollto " href="#blog">Blog</a></li>
-          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+          <li><a class="nav-link scrollto active" href="./index.html#home">Home</a></li>
+          <li><a class="nav-link scrollto" href="./index.html#about">About</a></li>
+          <li><a class="nav-link scrollto" href="./index.html#skills">Skills</a></li>
+          <!-- <li><a class="nav-link scrollto " href="./index.html#portfolio">Portfolio</a></li> -->
+
+          <li class="dropdown"><a href="./index.html#portfolio"><span>Portfolio</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
+              <li><a href="./ar-escape-room-details.html">AR Escape Room</a></li>
+              <li><a href="./caius-adventures-vr-details.html">Caius Adventures VR</a></li>
+              <li><a href="./space-invaders-crazy-ludi-episode-details.html">Space Invaders - Crazy Ludi</a></li>
             </ul>
           </li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+
+          <li><a class="nav-link scrollto" href="./index.html#contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -73,17 +64,20 @@
     </div>
   </header><!-- End Header -->
 
-  <div class="hero hero-single route bg-image" style="background-image: url(assets/img/overlay-bg.jpg)">
+  <div class="hero hero-single route bg-image" style="background-image: url(assets/img/black-bg.jpg)">
     <div class="overlay-mf"></div>
     <div class="hero-content display-table">
       <div class="table-cell">
         <div class="container">
-          <h2 class="hero-title mb-4">Portfolio Details</h2>
+          <h2 class="hero-title mb-4">AR Escape Room</h2>
           <ol class="breadcrumb d-flex justify-content-center">
             <li class="breadcrumb-item">
-              <a href="#">Home</a>
+              <a href="./index.html#home">Home</a>
             </li>
-            <li class="breadcrumb-item active">Portfolio Details</li>
+            <li class="breadcrumb-item">
+              <a href="./index.html#portfolio">Portfolio</a>
+            </li>
+            <li class="breadcrumb-item active">AR Escape Room</li>
           </ol>
         </div>
       </div>
@@ -100,21 +94,25 @@
 
           <div class="col-lg-8">
             <div class="portfolio-details-slider swiper">
-              <div class="swiper-wrapper align-items-center">
+              <div class="swiper-wrapper">
 
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio-details-1.jpg" alt="">
+                  <img src="assets/img/ar-escape-room/ar-escape-room-all-tasks.PNG" alt="picture of all tasks available in the escape room">
+                </div>
+
+                <div class="swiper-slide" data-interval="18000">
+                  <video width="640" height="480" controls>
+                    <source src="assets/img/ar-escape-room/ar-escape-room-tower-slider-example.mp4" type="video/mp4">
+                  </video>
                 </div>
 
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio-details-2.jpg" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio-details-3.jpg" alt="">
+                  <img src="assets/img/ar-escape-room/ar-escape-room-menu-creation.PNG" alt="image of the creation menu">
                 </div>
 
               </div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
               <div class="swiper-pagination"></div>
             </div>
           </div>
@@ -123,16 +121,27 @@
             <div class="portfolio-info">
               <h3>Project information</h3>
               <ul>
-                <li><strong>Category</strong>: Web design</li>
-                <li><strong>Client</strong>: ASU Company</li>
-                <li><strong>Project date</strong>: 01 March, 2020</li>
-                <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
+                <li><strong>Category</strong>: Augmented Reality (AR)</li>
+                <li><strong>Platform</strong>: Microsoft HoloLens 2</li>
+                <li><strong>Project date</strong>: Ongoing (as of 31 March, 2023)</li>
               </ul>
             </div>
             <div class="portfolio-description">
-              <h2>This is an example of portfolio detail</h2>
+              <h2>AR and low vision rehabilitation</h2>
               <p>
-                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
+                Through a collaboration with an association for people with visual impairments (<a href="https://sbv-fsa.ch/">FSA</a>),
+                an exploratory study is conducted based on conventional tasks to understand how they may be gamified using an AR headset, 
+                and whether they may be usable and accessible by people with visual impairments.
+              </p>
+              <p>
+                As such, 3 AR tasks have been developed in the form of an escape room. They can be solved using any of two interaction modalities: 
+                touch to press buttons, or air tap to pinch and slide sliders.
+              </p>
+              <p>
+                A "Creation" menu exists to load and save markers on which the tasks will be placed. Spacial mapping is currently not used.
+              </p>
+              <p>
+                Results and discussion from this study will be available in a couple of weeks.
               </p>
             </div>
           </div>
@@ -158,7 +167,8 @@
               Licensing information: https://bootstrapmade.com/license/
               Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=DevFolio
             -->
-              Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+              Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a><br>
+              <a href="https://www.freepik.com/free-photo/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall_11712558.htm#query=black%20background&position=0&from_view=keyword&track=ais">Top background picture by benzoix</a> on Freepik
             </div>
           </div>
         </div>
