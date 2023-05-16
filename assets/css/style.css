@@ -1469,3 +1469,10 @@ footer .credits {
 footer .credits a {
   color: #fff;
 }
+
+/*--------------------------------------------------------------
+# List - Customs
+--------------------------------------------------------------*/
+div.BulettListDivCenter{
+  text-align: left;
+}
