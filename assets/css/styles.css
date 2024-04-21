@@ -5,6 +5,7 @@
     --bold-font: 700;
     --bolder-font: 900;
 
+    --font-color: #ffffff;
     --bg-color: #000000;
     --primary-color: #4756df;
     --secondary-color: #ff7235;
@@ -95,8 +96,11 @@ nav ul li {
 }
 /* Navigation end */
 
+
 /* About */
 .hero {
+    color: var(--font-color);
+    background-color: var(--bg-color);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -125,5 +129,64 @@ nav ul li {
     line-height: var(--line-height);
     padding: 0.3rem 0;
 }
+/* About end */
 
-  /* About end */
+
+/* Journey */
+.journey {
+    color: var(--font-color);
+    background-color: var(--bg-color);
+}
+/* Journey end */
+
+
+/* Portfolio */
+.portfolio {
+    color: var(--font-color);
+    background-color: var(--bg-color);
+    padding: 32px 0;
+    margin-top: 2rem;
+}
+
+.portfolio-title {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.project-pic {
+    width: 65%;
+    height: 60%;
+}
+
+.portfolio-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-container {
+    text-align: center;
+    width: 21.875rem;  /* = 350 pixels */
+    padding: 1rem;
+}
+
+.project-container p {
+    padding: 0.4rem;
+}
+  
+.project-title {
+    margin-bottom: var(--bottom-margin);
+}
+  
+.project-details {
+    margin-bottom: var(--bottom-margin);
+}
+  
+.project-card {
+    background-color: #000724;
+    border-radius: 11px;
+    box-shadow: 0 1px 3px var(--primary-shadow);
+    padding: 20px;
+    margin: 10px;
+}
+  /* Portfolio end */
