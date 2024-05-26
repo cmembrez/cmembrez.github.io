@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+        <!-- CSS Styles -->
+        <link rel="stylesheet" href="assets/css/styles.css" />
+
+        <title>Cédric Membrez - Software Engineer</title>
+    </head>
+    
+    <body>
+        <!-- Navigation Bar -->
+        <nav class="NavigationBar">
+            <h1>Cédric Membrez - Software Engineer</h1>
+            <ul class="NavigationBar">
+                <li><a href="./index.html" class="nav-link">Home</a></li>
+                <li><a href="./Portfolio.html" class="nav-link">Portfolio</a></li>
+                <li><a href="./AboutMe.html" class="nav-link">About Me</a></li>
+            </ul>
+
+            <button class="burger-menu" id="burger-menu">
+                <ion-icon class="bars" name="menu-outline"></ion-icon>
+            </button>
+        </nav>
+
+        <!-- Portfolio -->
+        <section class="portfolio" id="portfolio">
+            <h2 class="portfolio-title">Portfolio</h2>
+            <div class="portfolio-container">
+                <div class="project-container">
+                    <div class="project-container-top">
+                        <h3 class="project-title">Augmented Reality Escape Room</h3>
+                        <img
+                            src="assets/images/work-ar-escape-room.jpg"
+                            alt="augmented-reality-escape-room"
+                            loading="lazy"
+                            class="project-top-img"
+                        />
+                    </div>
+                    <div class="project-container-bottom">
+                        <div class="project-left">
+                            <p class="project-details">
+                                Through a collaboration with an association for people with visual impairments (<a href="https://sbv-fsa.ch/">FSA</a>),
+                                an exploratory study is conducted based on conventional tasks to understand how they may be gamified using an AR headset, 
+                                and whether they may be usable and accessible by people with visual impairments.
+                                As such, 3 AR tasks have been developed in the form of an escape room. They can be solved using any of two interaction modalities: 
+                                touch to press buttons, or air tap to pinch and slide sliders.
+                                A "Creation" menu exists to load and save markers on which the tasks will be placed. Spacial mapping is currently not used.
+                            </p>
+                        </div>
+                        <div class="project-right">
+                            <img
+                                src="assets/portfolio/ar-escape-room/ar-escape-room-all-tasks.PNG"
+                                alt="augmented-reality-escape-room-alltasks"
+                                loading="lazy"
+                                class="project-right-img"
+                            />
+                        </div>
+                    </div>
+                </div>
+                <div class="project-container">
+                    <div class="project-container-top">
+                        <h3 class="project-title">Virtual Reality Adventures Game</h3>
+                        <img
+                            src="assets/images/work-caius-adventures-vr.PNG"
+                            alt="virtual-reality-adventure-game"
+                            loading="lazy"
+                            class="project-top-img"
+                        />
+                    </div>
+                    <div class="project-container-bottom">
+                        <div class="project-left">
+                            <p class="project-details">
+                                This is my first video game and development using virtual reality with the Unity game engine.
+                                I used Blender to create each low poly assets such as sword, houses and monsters, 
+                                as well as GIMP to model some of the textures for the floor and walls.
+                                This made me acquire a great global knowledge on game development methods and each chain of its applications.
+                                This was a semester project at university. Due to hardware issue (my GPU was not supported anymore during development), 
+                                the video game was presented as WebGL during the end of the semester.
+                            </p>
+                        </div>
+                        <div class="project-right">
+                            <img
+                                src="assets/portfolio/caius-adventures-vr/Dungeon1Boss.PNG"
+                                alt="virtual-reality-adventure-game-dungeon1boss"
+                                loading="lazy"
+                                class="project-right-img"
+                            />
+                        </div>
+                    </div>
+                </div>
+                <div class="project-container">
+                    <div class="project-container-top">
+                        <h3 class="project-title">Object-oriented programming for a 2D game</h3>
+                        <img
+                            src="assets/images/work-space-invaders-crazy-ludi.PNG"
+                            alt="2d-space-invader-game"
+                            loading="lazy"
+                            class="project-top-img"
+                        />
+                    </div>
+                    <div class="project-container-bottom">
+                        <div class="project-left">
+                            <p class="project-details">
+                                Play as Ludwig and crush the invaders with your music notes and avoid the flats from the aliens. 
+                                Three difficulties are available through a drop-down menu. Also, once all aliens are killed, 
+                                you reach a new level with enemies' speed increased.
+                                A 2D Java game based on a Model-view-controller (MVC) pattern. More details on the <a href="https://github.com/cmembrez/my-space-invaders">GitHub repo</a>.
+                            </p>
+                        </div>
+                        <div class="project-right">
+                            <img
+                                src="assets/portfolio/caius-adventures-vr/Dungeon1Boss.PNG"
+                                alt="virtual-reality-adventure-game-dungeon1boss"
+                                loading="lazy"
+                                class="project-right-img"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
