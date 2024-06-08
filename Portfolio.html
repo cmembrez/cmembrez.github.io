@@ -6,8 +6,7 @@
         <meta name="viewport" content="width=device-width,initial-scale=1" />
 
         <!-- CSS Styles -->
-        <link rel="stylesheet" href="assets/css/styles.css" />
-
+        <link rel="stylesheet" href="assets/css/styles.css" />      
         <title>Cédric Membrez - Software Engineer</title>
     </head>
     
@@ -31,27 +30,36 @@
             <h2 class="portfolio-title">Portfolio</h2>
             <div class="portfolio-container">
                 <div class="project-container">
-                    <div class="project-container-top">
-                        <h3 class="project-title">Augmented Reality Escape Room</h3>
-                        <img
-                            src="assets/images/work-ar-escape-room.jpg"
-                            alt="augmented-reality-escape-room"
-                            loading="lazy"
-                            class="project-top-img"
-                        />
-                    </div>
-                    <div class="project-container-bottom">
-                        <div class="project-left">
-                            <p class="project-details">
-                                Through a collaboration with an association for people with visual impairments (<a href="https://sbv-fsa.ch/">FSA</a>),
-                                an exploratory study is conducted based on conventional tasks to understand how they may be gamified using an AR headset, 
-                                and whether they may be usable and accessible by people with visual impairments.
-                                As such, 3 AR tasks have been developed in the form of an escape room. They can be solved using any of two interaction modalities: 
-                                touch to press buttons, or air tap to pinch and slide sliders.
-                                A "Creation" menu exists to load and save markers on which the tasks will be placed. Spacial mapping is currently not used.
-                            </p>
+                    <h3 class="project-title">Augmented Reality Escape Room</h3>
+                    <img
+                        src="assets/images/work-ar-escape-room.jpg"
+                        alt="augmented-reality-escape-room"
+                        loading="lazy"
+                        class="project-top-img"
+                    />
+                    <div class="slideshow-container">
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                        <div class="mySlide">
+                                <p class="project-details">
+                                    Through a collaboration with an association for people with visual impairments (<a href="https://sbv-fsa.ch/">FSA</a>),
+                                    an exploratory study is conducted based on conventional tasks to understand how they may be gamified using an AR headset, 
+                                    and whether they may be usable and accessible by people with visual impairments.
+                                </p>
+                            <img
+                                src="assets/portfolio/ar-escape-room/work-ar-escape-room.jpg"
+                                alt="augmented-reality-escape-room-alltasks"
+                                loading="lazy"
+                                class="project-right-img"
+                            />
                         </div>
-                        <div class="project-right">
+
+                        <div class="mySlide">
+                                <p class="project-details">
+                                    As such, 3 AR tasks have been developed in the form of an escape room. They can be solved using any of two interaction modalities: 
+                                    touch to press buttons, or air tap to pinch and slide sliders.
+                                </p>
                             <img
                                 src="assets/portfolio/ar-escape-room/ar-escape-room-all-tasks.PNG"
                                 alt="augmented-reality-escape-room-alltasks"
@@ -59,39 +67,21 @@
                                 class="project-right-img"
                             />
                         </div>
-                    </div>
-                </div>
-                <div class="project-container">
-                    <div class="project-container-top">
-                        <h3 class="project-title">Virtual Reality Adventures Game</h3>
-                        <img
-                            src="assets/images/work-caius-adventures-vr.PNG"
-                            alt="virtual-reality-adventure-game"
-                            loading="lazy"
-                            class="project-top-img"
-                        />
-                    </div>
-                    <div class="project-container-bottom">
-                        <div class="project-left">
+
+                        <div class="mySlide">
                             <p class="project-details">
-                                This is my first video game and development using virtual reality with the Unity game engine.
-                                I used Blender to create each low poly assets such as sword, houses and monsters, 
-                                as well as GIMP to model some of the textures for the floor and walls.
-                                This made me acquire a great global knowledge on game development methods and each chain of its applications.
-                                This was a semester project at university. Due to hardware issue (my GPU was not supported anymore during development), 
-                                the video game was presented as WebGL during the end of the semester.
+                                A "Creation" menu exists to load and save markers on which the tasks will be placed. Spacial mapping is currently not used.
                             </p>
-                        </div>
-                        <div class="project-right">
                             <img
-                                src="assets/portfolio/caius-adventures-vr/Dungeon1Boss.PNG"
-                                alt="virtual-reality-adventure-game-dungeon1boss"
+                                src="assets/portfolio/ar-escape-room/ar-escape-room-menu-creation.PNG"
+                                alt="augmented-reality-escape-room-alltasks"
                                 loading="lazy"
                                 class="project-right-img"
                             />
                         </div>
                     </div>
                 </div>
+
                 <div class="project-container">
                     <div class="project-container-top">
                         <h3 class="project-title">Object-oriented programming for a 2D game</h3>
@@ -111,17 +101,17 @@
                                 A 2D Java game based on a Model-view-controller (MVC) pattern. More details on the <a href="https://github.com/cmembrez/my-space-invaders">GitHub repo</a>.
                             </p>
                         </div>
-                        <div class="project-right">
-                            <img
-                                src="assets/portfolio/caius-adventures-vr/Dungeon1Boss.PNG"
-                                alt="virtual-reality-adventure-game-dungeon1boss"
-                                loading="lazy"
-                                class="project-right-img"
-                            />
-                        </div>
+                        <img
+                            src="assets/portfolio/caius-adventures-vr/Dungeon1Boss.PNG"
+                            alt="virtual-reality-adventure-game-dungeon1boss"
+                            loading="lazy"
+                            class="project-right-img"
+                        />
                     </div>
                 </div>
             </div>
         </section>
+
+        <script src="assets/js/animation.js"></script>
     </body>
 </html>
