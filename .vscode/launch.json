@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "msedge",
+            "request": "launch",
+            "name": "Test portfolio",
+            "url": "${workspaceFolder}/Portfolio.html" //"url": "http://localhost:8000"
+          }
+    ]
+}
