@@ -1,35 +1,33 @@
-let slideIndex = 1;
-currentSlide(1);
-showSlides(slideIndex);
+let slideIndex = 0;
 
-
-//TODO: // Find all slideshow-container 
-var slideshowContainers = document.getElementsByClassName("slideshow-container")
-slideshowContainers.forEach(slideshow => {
-});
+// At page initial load, show first slides.
+plusSlides('projectArEscapeRoomSlideshow', 0);
+plusSlides('projectCaiusAdventuresVr', 0);
+plusSlides('project2DGAmeSpaceInvaderLudi', 0);
 
 
 // Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
+function plusSlides(parentId, stepSize) {
+  let parent = document.getElementById(parentId);    
+  let childrenMySlide = parent.querySelectorAll("div.mySlide");
+
+  slideIndex += stepSize;
+  showSlides(childrenMySlide, slideIndex);
 }
 
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
+function showSlides(containerSlides, n) {
+  let otherSlidesIndex;
 
-function showSlides(n) {
-  let slideIndex;
+  // slides boundaries
+  if (n >= containerSlides.length) {slideIndex = 0}
+  if (n < 0) {slideIndex = containerSlides.length - 1}
 
-  let slides = document.getElementsByClassName("mySlide");
-
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (slideIndex = 0; slideIndex < slides.length; slideIndex++) {
-    slides[slideIndex].style.display = "none";
+  // Hide others
+  for (otherSlidesIndex = 0; otherSlidesIndex < containerSlides.length; otherSlidesIndex++) {
+    containerSlides[otherSlidesIndex].style.display = "none";
   }
-  
-  slides[slideIndex-1].style.display = "block";
+
+  // Show this slide
+  containerSlides[slideIndex].style.display = "block";
 
 }
