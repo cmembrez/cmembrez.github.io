@@ -28,7 +28,6 @@
         <!-- Portfolio -->
         <section class="portfolio" id="portfolio">
             <h2 class="portfolio-title">Portfolio</h2>
-            <div class="portfolio-container">
                 <div class="project-container">
                     <h3 class="project-title">Augmented Reality Escape Room</h3>
                     <img
@@ -39,22 +38,28 @@
                     />
                     <div class="slideshow-container" id="projectArEscapeRoomSlideshow">
                         <a class="prev" onclick="plusSlides('projectArEscapeRoomSlideshow', -1)">&#10094;</a>
-                        <a class="next" onclick="plusSlides('projectArEscapeRoomSlideshow', 1)">&#10095;</a>
-
                         <div class="mySlide">
-                                <p class="project-details">
-                                    Through a collaboration with an association for people with visual impairments (<a href="https://sbv-fsa.ch/">FSA</a>),
-                                    an exploratory study is conducted based on conventional tasks to understand how they may be gamified using an AR headset, 
-                                    and whether they may be usable and accessible by people with visual impairments.
-                                </p>
-                            <img
-                                src="assets/portfolio/ar-escape-room/work-ar-escape-room.jpg"
-                                alt="augmented-reality-escape-room-alltasks"
-                                loading="lazy"
-                                class="project-right-img"
-                            />
+                            <div class="project-details">
+                                Through a collaboration with an association for people with visual impairments (<a href="https://sbv-fsa.ch/">FSA</a>),
+                                an exploratory study is conducted based on conventional tasks to understand how they may be gamified using an AR headset, 
+                                and whether they may be usable and accessible by people with visual impairments.
+                            </div>
+                            <div class="project-details">
+                                Through a collaboration with an association for people with visual impairments (<a href="https://sbv-fsa.ch/">FSA</a>),
+                                an exploratory study is conducted based on conventional tasks to understand how they may be gamified using an AR headset, 
+                                and whether they may be usable and accessible by people with visual impairments.
+                            </div>
+                            <!--
+                            <div class="project-right">
+                                <img
+                                    src="assets/portfolio/ar-escape-room/work-ar-escape-room.jpg"
+                                    alt="augmented-reality-escape-room-alltasks"
+                                    loading="lazy"
+                                    class="project-right-img"
+                                />
+                            </div>
+                            -->
                         </div>
-
                         <div class="mySlide">
                                 <p class="project-details">
                                     As such, 3 AR tasks have been developed in the form of an escape room. They can be solved using any of two interaction modalities: 
@@ -67,7 +72,6 @@
                                 class="project-right-img"
                             />
                         </div>
-
                         <div class="mySlide">
                             <p class="project-details">
                                 A "Creation" menu exists to load and save markers on which the tasks will be placed. Spacial mapping is currently not used.
@@ -79,6 +83,7 @@
                                 class="project-right-img"
                             />
                         </div>
+                        <a class="next" onclick="plusSlides('projectArEscapeRoomSlideshow', 1)">&#10095;</a>
                     </div>
                 </div>
 
@@ -197,7 +202,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
         </section>
 
         <script src="assets/js/animation.js"></script>

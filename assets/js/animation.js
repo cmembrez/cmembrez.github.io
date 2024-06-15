@@ -29,5 +29,4 @@ function showSlides(containerSlides, n) {
 
   // Show this slide
   containerSlides[slideIndex].style.display = "block";
-
 }
