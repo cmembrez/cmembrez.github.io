@@ -276,6 +276,13 @@ nav ul li {
   .project-right-img {
     grid-column: col 3 / span 1;
     margin-left: 5px;
+    width: 250px;
+    height: 50%;
+  }
+
+  .project-right-video{
+    grid-column: col 3 / span 1;
+    margin-left: 5px;
     width: 50%;
     height: auto;
   }
