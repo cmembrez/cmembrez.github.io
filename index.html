@@ -54,6 +54,7 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="#home">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
           <li><a class="nav-link scrollto" href="#skills">Skills</a></li>
           <li class="dropdown"><a href="./index.html#portfolio"><span>Portfolio</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
@@ -77,31 +78,84 @@
     <div class="hero-content display-table">
       <div class="table-cell">
         <div class="container">
+          <!--<p class="display-6 color-d">Hello, world!</p>-->
           <h1 class="hero-title mb-4">Cédric Membrez</h1>
-          <div class="about-info">
-            <p><span class="title-s-white">Software Engineer, +1 year</span></p>
-            <p><span class="title-s-white">Financial investments, +6 years</span></p>
-            <p>
-              <a href="https://www.linkedin.com/in/membrezcedric/">
-                <i class="bi bi-linkedin" style="font-size: 20px; text-decoration: none; margin: 0 20px;"></i>
-              </a>
-              <a href="https://github.com/cmembrez">
-                <i class="bi bi-github" style="font-size: 20px; text-decoration: none; margin: 0 20px;"></i>
-              </a>
-              <a href="assets/pdf/resume.pdf">
-                <i class="bi bi-file-earmark-pdf" style="font-size: 20px; text-decoration: none; margin: 0 20px;"></i>
-                <!-- <a href="https://www.flaticon.com/free-icons/education" title="education icons">Education icons created by Vectors Tank - Flaticon</a> -->
-              </a>  
-            </p>
-          </div>
+          <p class="hero-subtitle"><span class="typed" data-typed-items="Software Engineer, Clean Code, Digital Transformation"></span></p>
+          <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
+        </div>
+      </div>
+    </div>
+  </div><!-- End Hero Section -->
 
+  <main id="main">
 
-          <!-- New Row for Description and Skills -->
-          <div class="hero-details">
-            <!-- Left Section: Description -->
-            <div class="hero-description">
-              <div class="col-md-12">
-                <div class="row">
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about-mf sect-pt4 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="box-shadow-full">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="row">
+                    <div class="col-sm-6 col-md-5">
+                      <div class="about-img">
+                        <img src="assets/img/portrait-pic.jpg" class="img-fluid rounded b-shadow-a" alt="portrait picture of cedric membrez">
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-7">
+                      <div class="about-info">
+                        <p><span class="title-s">Cédric Membrez</span></p>
+                        <p><span class="title-s">Software Engineer, +1 year</span></p>
+                        <p><span class="title-s"></span> <span>Financial investments, 6 years</span></p>
+                        <p>
+                          <span class="title-s"></span><span>LinkedIn: </span>
+                          <a href="https://www.linkedin.com/in/membrezcedric/">
+                            <i class="bi bi-linkedin" style="font-size: 20px;"></i>
+                          </a>
+                        </p>
+                        <p>
+                          <span class="title-s"></span><span>Github: </span>
+                          <a href="https://github.com/cmembrez">
+                            <i class="bi bi-github" style="font-size: 20px;"></i>
+                          </a>
+                        </p> 
+                        <p>
+                          <span class="title-s"></span><span>Resume: </span>
+                          <a href="assets/pdf/resume.pdf">
+                            <i class="bi bi-file-earmark-pdf" style="font-size: 20px;"></i>
+                          </a>
+                        </p> 
+                      </div>
+                    </div>
+                  </div>
+                  <div class="skill-mf">
+                    <p class="title-s">Skills</p>
+                    <span>C#</span> <span class="pull-right">75%</span>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>Unity</span> <span class="pull-right">75%</span>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>C/C++</span> <span class="pull-right">50%</span>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>Python</span> <span class="pull-right">50%</span>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="about-me pt-4 pt-md-0">
+                    <div class="title-box-2">
+                      <h5 class="title-left">
+                        About me
+                      </h5>
+                    </div>
                     <p class="lead">
                       I'm a software engineer focused on Industry 4.0 and digital transformation. 
                       I have expertise in C# and the full pipeline from CAD models to AR/VR applications. 
@@ -111,53 +165,20 @@
                     <p class="lead">
                       I hold an MSc in Computer Science, where I specialized in advanced information processing. 
                       My thesis explored augmented reality and gamification to support rehabilitation for people with visual impairments.
-  
+
                     </p>
                     <p class="lead">
                       Before advancing my technical skills, I spent six years in the financial services industry, 
                       where I applied my background in Economics and Quantitative Finance to portfolio management and investment strategies.
                     </p>
+                  </div>
                 </div>
               </div>
             </div>
-            <!-- Right Section: Skills Icons -->
-            <div class="skills-table">
-              <div class="skills-mf">
-                <p class="title-s"></p>
-                <table class="skills-table">
-                  <tr>
-                    <td>
-                      <img src="C:\PW\cmembrez.github.io\assets\icons\logo_csharp.png" alt="C# Icon">
-                    </td>
-                    <td>
-                      <img src="C:\PW\cmembrez.github.io\assets\icons\cpp_logo.png" alt="C/C++ Icon">
-                    </td>
-                    <td>
-                      <img src="C:\PW\cmembrez.github.io\assets\icons\python-logo-only.png" alt="Python Icon">
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <img src="C:\PW\cmembrez.github.io\assets\icons\U_Cube_1C_White.png" alt="Unity Icon">
-                    </td>
-                    <td>
-                      <img src="C:\PW\cmembrez.github.io\assets\icons\UE-Icon-2023-White.png" alt="Unreal Engine Icon">
-                    </td>
-                    <td>
-                      <img src="C:\PW\cmembrez.github.io\assets\icons\blender_icon_128x128.png" alt="Blender Icon">
-                    </td>
-                  </tr>
-                </table>
-              </div>
-            </div>          
-          
           </div>
         </div>
       </div>
-    </div>
-  </div><!-- End Hero Section -->
-
-  <main id="main">
+    </section><!-- End About Section -->
 
     <!-- ======= Skills Section ======= -->
     <section id="skills" class="services-mf pt-5 route">
@@ -342,7 +363,7 @@
                         <!-- some text -->
                       </p>
                       <ul class="list-ico">
-                        <li><span class="bi bi-geo-alt"></span> Geneva, Switzerland</li>
+                        <li><span class="bi bi-geo-alt"></span> Zurich, Switzerland</li>
                         <li><span class="bi bi-phone"></span> (+41) 79 269 17 10</li>
                         <li><span class="bi bi-envelope"></span> cedric.membrez@gmail.com</li>
                       </ul>
