@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -18,6 +22,69 @@ body {
     font-family: var(--body-font);
 }
 
-html {
-    scroll-behavior: smooth;
+section {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header Section */
+.header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.header h1 {
+    font-size: 36px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.header p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* About Section */
+.about {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.about h1 {
+    font-size: 36px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Skills Section */
+.skills {
+    text-align: center;
+}
+
+.skills h1 {
+    font-size: 36px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skill {
+    background-color: #333333;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 16px;
 }
