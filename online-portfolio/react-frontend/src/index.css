@@ -80,13 +80,18 @@ section {
     justify-content: center;
 }
 
+/* Style for each skill image */
 .skill {
-    background-color: #333333;
-    padding: 10px 20px;
+    
+    padding: 10px;
     margin: 10px;
     border-radius: 5px;
-    color: #FFFFFF;
-    font-size: 16px;
+}
+
+.skill-image {
+    width: 50px; /* Adjust size as needed */
+    height: 50px; /* Maintain aspect ratio */
+    object-fit: contain; /* Scale the image to fit without distortion */
 }
 
 /* General Styles */
@@ -104,17 +109,17 @@ section {
     margin-bottom: 50px;
 }
 
-    .portfolio-header h1 {
-        font-size: 36px;
-        color: #FFFFFF;
-        margin-bottom: 20px;
-    }
+.portfolio-header h1 {
+    font-size: 36px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
 
-    .portfolio-header p {
-        font-size: 18px;
-        line-height: 1.6;
-        margin-bottom: 10px;
-    }
+.portfolio-header p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
 
 /* Projects Grid */
 .projects-container {
@@ -136,9 +141,9 @@ section {
     transition: transform 0.3s ease;
 }
 
-    .project:hover {
-        transform: scale(1.05);
-    }
+.project:hover {
+    transform: scale(1.05);
+}
 
 .project-image {
     width: 100%;

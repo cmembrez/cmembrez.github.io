@@ -1,6 +1,8 @@
 ﻿import { skills, textAboutMe } from "../data";
 export default function Home() {
     const aboutMeText = textAboutMe[0];
+    const skillsLanguages = skills[0].languages;
+    const skillsTechnologies = skills[0].technologies;
 
     return (
         <section id="home">
@@ -19,9 +21,25 @@ export default function Home() {
             <div className="skills">
                 <h1>Skills</h1>
                 <div className="skills-list">
-                    {skills.map((skill) => (
-                        <div key={skill.name} className="skill">
-                            <span>{skill.name}</span>
+                    {skillsLanguages.map((language, index) => (
+                        <div key={index} className="skill">
+                            <img
+                                src={language.image}
+                                alt={language.name}
+                                className="skill-image"
+                            />
+                        </div>
+                    ))}
+                </div>
+
+                <div className="skills-list">
+                    {skillsTechnologies.map((technology, index) => (
+                        <div key={index} className="skill">
+                            <img
+                                src={technology.image}
+                                alt={technology.name}
+                                className="skill-image"
+                            />
                         </div>
                     ))}
                 </div>

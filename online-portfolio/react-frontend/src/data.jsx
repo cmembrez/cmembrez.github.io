@@ -1,11 +1,10 @@
 export const textAboutMe = [
     {
-        shortIntro: "Software engineer currently focused on digital twin in an industrial context, with constant curiosity to apply my skills in other industries.",
+        shortIntro: "I'm a software engineer with experience across various languages and technologies (1+ years in C#, 1 year in Java and MySQL, 3 years in R and VBA).",
         longIntro: [
-            "I am a software engineer focusing on digital twin in an industrial context, with constant curiosity to apply my skills in other industries.",
-            "During a MSc in computer science, with a specialization in advanced information processing, I have been inspired by the potential of mixed reality and what it can unlock. I wrote my MSc thesis on gamification and accessibility using augmented reality to support the rehabilitation of people with visual impairment.",
-            "Through these studies, I have reconnected with a passion for computer science and video games. It brought back memories from my childhood where I developed maps for Half-Life using  the Valve Hammer editor. But today, with the appropriate skills acquired,  I tackle new hardware and technologies with a purpose to bring the best out of mixed reality  to benefit the end user in multiple ways.",
-            "My initial career in financial investments helped me develop a rigorous work ethic through an attention to details with complex data to make optimal decisions, and a strong communication with interpersonal skills through presentations across Europe."
+            "Over the last year, I have focused on Industry 4.0 and digital transformation, working across the pipeline from CAD models to AR / VR applications.",
+            "I also have a solid foundation in cloud computing, big data, machine learning, and IoT.",
+            "My broad skill set allows me to tackle challenges across diverse industries, including finance and technology, where I can leverage data - driven solutions and innovative technologies."
         ]
     }
 ]
@@ -42,12 +41,45 @@ export const projects = [
 
 export const skills = [
     {
-        name: "Unity"
-    },
-    {
-        name: "C#"
-    },
-    {
-        name: "AR/VR"
+        languages: [
+            {
+                name: "C#",
+                image: "/src/assets/skills/c-sharp-c-seeklogo.svg"
+            },
+            {
+                name: "Java",
+                image: "/src/assets/skills/java-4-logo-svgrepo-com.svg"
+            },
+            {
+                name: "Python",
+                image: "/src/assets/skills/python-logo-only.png"
+            },
+            {
+                name: "SQL",
+                image: "/src/assets/skills/sql-seeklogo.svg"
+            },
+            {
+                name: "C/C++",
+                image: "/src/assets/skills/c-seeklogo.png"
+            }
+        ],
+        technologies: [
+            {
+                name: "Unity",
+                image: "/src/assets/skills/U_Cube_1C_White.png"
+            },
+            {
+                name: "Blender",
+                image: "/src/assets/skills/blender_icon_1024x1024.png"
+            },
+            {
+                name: "Photoshop",
+                image: "src/assets/skills/Photoshop_2020.svg"
+            },
+            {
+                name: "Unreal Engine",
+                image: "/src/assets/skills/UE-Icon-2023-White.png"
+            }
+        ]
     }
 ];
