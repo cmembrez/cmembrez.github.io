@@ -88,3 +88,101 @@ section {
     color: #FFFFFF;
     font-size: 16px;
 }
+
+/* General Styles */
+#portfolio {
+    background-color: #001B33;
+    color: #CCCCCC;
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header Section */
+.portfolio-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+    .portfolio-header h1 {
+        font-size: 36px;
+        color: #FFFFFF;
+        margin-bottom: 20px;
+    }
+
+    .portfolio-header p {
+        font-size: 18px;
+        line-height: 1.6;
+        margin-bottom: 10px;
+    }
+
+/* Projects Grid */
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Individual Project Styling */
+.project {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    cursor: pointer;
+    border: 4px solid #333333;
+    background-color: #333333;
+    transition: transform 0.3s ease;
+}
+
+    .project:hover {
+        transform: scale(1.05);
+    }
+
+.project-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Project Info Overlay */
+.project-info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #FFFFFF;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project:hover .project-info {
+    opacity: 1;
+}
+
+.project-info h2 {
+    font-size: 16px;
+    color: #00FF7F; /* Green subtitle */
+    margin-bottom: 10px;
+}
+
+.project-info h1 {
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.project-info p {
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+}
