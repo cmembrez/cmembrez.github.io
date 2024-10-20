@@ -1,10 +1,10 @@
-﻿import { projects } from "../data";
+﻿import {portfolio, projects } from "../data";
 export default function Portfolio() {
     return (
         <section id="portfolio">
             <div className="portfolio-header">
                 <h1>Portfolio</h1>
-                <p>My projects in augmented reality (AR), virtual reality (VR) and 2D.</p>
+                <p>{portfolio[0].intro}</p>
             </div>
 
             <div className="projects-container">
