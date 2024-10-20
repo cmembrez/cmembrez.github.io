@@ -21,21 +21,21 @@ export const projects = [
         subtitle: "Augmented Reality",
         description:
             "Explore the use of augmented reality, Microsoft HoloLens 2, with people with visual impairments.",
-        image: "/src/assets/work-ar-escape-room.jpg"
+        image: "/src/assets/ar-escape-room/work-ar-escape-room.jpg"
     },
     {
         title: "Caius Adventures VR",
         subtitle: "Virtual Reality",
         description:
             "My very first VR video game using a Quest 2.",
-        image: "/src/assets/work-ar-escape-room.jpg"
+        image: "/src/assets/caius-adventures-vr/Dungeon1Boss.PNG"
     },
     {
         title: "Space Invaders - Crazy Ludi",
         subtitle: "2D Java Game",
         description:
             "A version of Space Invaders using Java with a hint to my passion for piano.",
-        image: "/src/assets/work-ar-escape-room.jpg"
+        image: "/src/assets/space-invaders/work-space-invaders-crazy-ludi.PNG"
     }
 ];
 
