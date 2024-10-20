@@ -83,3 +83,16 @@ export const skills = [
         ]
     }
 ];
+
+export const socialLinks = [
+    {
+        name: "GitHub",
+        image: "/src/assets/socialLinks/github-mark-white.png",
+        url: "https://github.com/cmembrez"
+    },
+    {
+        name: "LinkedIn",
+        image: "/src/assets/socialLinks/LI-In-Bug.png",
+        url: "https://www.linkedin.com/in/membrezcedric/"
+    }
+];

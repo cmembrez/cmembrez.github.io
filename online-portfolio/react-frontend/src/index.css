@@ -96,8 +96,6 @@ section {
 
 /* General Styles */
 #portfolio {
-    background-color: #001B33;
-    color: #CCCCCC;
     padding: 40px 20px;
     max-width: 1200px;
     margin: 0 auto;
@@ -190,4 +188,24 @@ section {
     font-size: 14px;
     line-height: 1.5;
     text-align: center;
+}
+
+/* Add this to your CSS file */
+.social-links {
+    margin-top: 10px; /* Space between header and social icons */
+}
+
+.social-links a {
+    margin: 0 10px; /* Space between icons */
+}
+
+.social-icon {
+    width: 30px; /* Adjust size as needed */
+    height: 30px; /* Maintain aspect ratio */
+    object-fit: contain; /* Scale the image to fit without distortion */
+    transition: transform 0.3s;
+}
+
+.social-icon:hover {
+    transform: scale(1.1); /* Slightly enlarge on hover */
 }

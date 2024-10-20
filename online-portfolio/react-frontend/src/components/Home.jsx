@@ -1,4 +1,4 @@
-﻿import { skills, textAboutMe } from "../data";
+﻿import { skills, textAboutMe, socialLinks } from "../data";
 export default function Home() {
     const aboutMeText = textAboutMe[0];
     const skillsLanguages = skills[0].languages;
@@ -8,6 +8,25 @@ export default function Home() {
         <section id="home">
             <div className="header">
                 <h1>Cédric Membrez</h1>
+
+                <div className="social-links">
+                    {socialLinks.map((link) => (
+                        <a
+                            key={link.name}
+                            href={link.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label={link.name}
+                        >
+                            <img
+                                src={link.image}
+                                alt={link.name}
+                                className="social-icon"
+                            />
+                        </a>
+                    ))}
+                </div>
+
                 <p>{aboutMeText.shortIntro}</p>
             </div>
 
