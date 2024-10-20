@@ -4,7 +4,7 @@
     <PackageJsonName Condition="$(PackageJsonName) == ''">react-frontend</PackageJsonName>
     <PackageJsonPrivate Condition="$(PackageJsonPrivate) == ''">true</PackageJsonPrivate>
     <PackageJsonVersion Condition="$(PackageJsonVersion) == ''">0.1.0</PackageJsonVersion>
-    <PackageJsonHomepage Condition="$(PackageJsonHomepage) == ''">https://cmembrez.github.io/</PackageJsonHomepage>
+    <PackageJsonHomepage Condition="$(PackageJsonHomepage) == ''">https://cmembrez.github.io/react-frontend</PackageJsonHomepage>
     <PackageJsonType Condition="$(PackageJsonType) == ''">module</PackageJsonType>
     <PackageJsonScriptsDev Condition="$(PackageJsonScriptsDev) == ''">vite</PackageJsonScriptsDev>
     <PackageJsonScriptsBuild Condition="$(PackageJsonScriptsBuild) == ''">vite build</PackageJsonScriptsBuild>
