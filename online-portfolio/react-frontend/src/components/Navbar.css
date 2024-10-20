@@ -1,0 +1,50 @@
+/* General Navbar Styles */
+.Nav {
+    background: transparent;
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    z-index: 12;
+}
+
+/* Hamburger Menu (3 lines) */
+.Bars {
+    color: #ffffff;
+    font-size: 1.8rem;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+/* Hide menu by default */
+.NavMenu {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    top: 50px;
+    right: 10px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+    /* Show menu when it's open */
+    .NavMenu.open {
+        display: flex;
+    }
+
+/* Link styles */
+.NavLink {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 10px 0;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+    .NavLink:hover {
+        color: #00ff7f; /* Light green on hover */
+    }

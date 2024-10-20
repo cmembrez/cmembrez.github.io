@@ -1,2 +1,2 @@
 # my-online-portfolio
-My online portfolio based on a Bootstrap Portfolio template
+My online portfolio using React
