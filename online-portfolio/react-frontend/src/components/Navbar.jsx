@@ -12,9 +12,6 @@ const Navbar = () => {
                     <a className="NavLink" href="#portfolio">
                         Portfolio
                     </a>
-                    <a className="NavLink" href="#aboutMe">
-                        About Me
-                    </a>
                 </div>
             </div>
         </>
