@@ -2,7 +2,7 @@
   "name": "react-frontend",
   "private": true,
   "version": "0.1.0",
-  "homepage": "https://cmembrez.github.io/",
+  "homepage": "https://cmembrez.github.io/react-frontend",
   "type": "module",
   "scripts": {
     "dev": "vite",
