@@ -20,11 +20,10 @@ import linkedInLogo from './assets/socialLinks/LI-In-Bug.png';
 
 export const textAboutMe = [
     {
-        shortIntro: "I'm a software engineer with experience across various languages and technologies (1+ years in C#, 1 year in Java and MySQL, 3 years in R and VBA).",
+        shortIntro: "With a growing background in various programming languages and technologies, I am driven by a passion for problem-solving and continuous learning. Although still in the early stages of my software engineer career, I have gained hands-on experience in C#, Java, SQL, Python, R, and VBA, enabling me to contribute effectively across industries, particularly in finance and technology.",
         longIntro: [
-            "Over the last year, I have focused on Industry 4.0 and digital transformation, working across the pipeline from CAD models to AR / VR applications.",
-            "I also have a solid foundation in cloud computing, big data, machine learning, and IoT.",
-            "My broad skill set allows me to tackle challenges across diverse industries, including finance and technology, where I can leverage data - driven solutions and innovative technologies."
+            "Recently, I have focused on Industry 4.0, where I have contributed to projects ranging from CAD models to AR/VR applications. My curiosity extends into areas like cloud computing, big data, and machine learning, and I am excited to further explore these technologies to deliver impactful solutions.",
+            "With an MSc in Computer Science and prior experience in finance, I bring a blend of analytical thinking and technical skills to every project. I am eager to continue developing my expertise, collaborating with diverse teams, and applying innovative technologies to solve complex problems."
         ]
     }
 ]
