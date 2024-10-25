@@ -6,13 +6,10 @@ import logoLanguageCSharp from './assets/skills/c-sharp-c-seeklogo.svg';
 import logoLanguageJava from './assets/skills/java-4-logo-svgrepo-com.svg';
 import logoLanguagePython from './assets/skills/python-logo-only.png';
 import logoLanguageSQL from './assets/skills/sql-seeklogo.svg';
-import logoLanguageCpp from './assets/skills/c-seeklogo.png';
 
 // Import technology images
 import unityLogo from './assets/skills/U_Cube_1C_White.png';
 import blenderLogo from './assets/skills/blender_icon_1024x1024.png';
-import photoshopLogo from './assets/skills/Photoshop_2020.svg';
-import unrealEngineLogo from './assets/skills/UE-Icon-2023-White.png';
 
 // Import social link images
 import githubLogo from './assets/socialLinks/github-mark-white.png';
@@ -20,9 +17,9 @@ import linkedInLogo from './assets/socialLinks/LI-In-Bug.png';
 
 export const textAboutMe = [
     {
-        shortIntro: "With a growing background in various programming languages and technologies, I am driven by a passion for problem-solving and continuous learning. Although still in the early stages of my software engineer career, I have gained hands-on experience in C#, Java, SQL, Python, R, and VBA, enabling me to contribute effectively across industries, particularly in finance and technology.",
+        shortIntro: "With a growing background in various programming languages and technologies, I am driven by a passion for problem-solving and continuous learning. Although still in the early stages of my software engineer career, I have gained hands-on experience in C#, Java, SQL and Python, enabling me to contribute effectively across industries, particularly in finance and technology.",
         longIntro: [
-            "Recently, I have focused on Industry 4.0, where I have contributed to projects ranging from CAD models to AR/VR applications. My curiosity extends into areas like cloud computing, big data, and machine learning, and I am excited to further explore these technologies to deliver impactful solutions.",
+            "Currently, I am working on Industry 4.0 projects, using Python to automate CAD workflow processes and C# to build AR/VR applications. My curiosity extends into areas like cloud computing, big data, and machine learning, and I am excited to further explore these technologies to deliver impactful solutions.",
             "With an MSc in Computer Science and prior experience in finance, I bring a blend of analytical thinking and technical skills to every project. I am eager to continue developing my expertise, collaborating with diverse teams, and applying innovative technologies to solve complex problems."
         ]
     }
@@ -30,7 +27,7 @@ export const textAboutMe = [
 
 export const portfolio = [
     {
-        intro: "My projects in augmented reality (AR), virtual reality (VR) and 2D."
+        intro: "Projects in AR, VR, and Interactive 2D Development"
     }    
 ]
 
@@ -76,10 +73,6 @@ export const skills = [
             {
                 name: "SQL",
                 image: logoLanguageSQL
-            },
-            {
-                name: "C/C++",
-                image: logoLanguageCpp
             }
         ],
         technologies: [
@@ -90,14 +83,6 @@ export const skills = [
             {
                 name: "Blender",
                 image: blenderLogo
-            },
-            {
-                name: "Photoshop",
-                image: photoshopLogo
-            },
-            {
-                name: "Unreal Engine",
-                image: unrealEngineLogo
             }
         ]
     }
