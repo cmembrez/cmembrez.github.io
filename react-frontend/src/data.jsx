@@ -6,13 +6,10 @@ import logoLanguageCSharp from './assets/skills/c-sharp-c-seeklogo.svg';
 import logoLanguageJava from './assets/skills/java-4-logo-svgrepo-com.svg';
 import logoLanguagePython from './assets/skills/python-logo-only.png';
 import logoLanguageSQL from './assets/skills/sql-seeklogo.svg';
-import logoLanguageCpp from './assets/skills/c-seeklogo.png';
 
 // Import technology images
 import unityLogo from './assets/skills/U_Cube_1C_White.png';
 import blenderLogo from './assets/skills/blender_icon_1024x1024.png';
-import photoshopLogo from './assets/skills/Photoshop_2020.svg';
-import unrealEngineLogo from './assets/skills/UE-Icon-2023-White.png';
 
 // Import social link images
 import githubLogo from './assets/socialLinks/github-mark-white.png';
@@ -20,18 +17,18 @@ import linkedInLogo from './assets/socialLinks/LI-In-Bug.png';
 
 export const textAboutMe = [
     {
-        shortIntro: "I'm a software engineer with experience across various languages and technologies (1+ years in C#, 1 year in Java and MySQL, 3 years in R and VBA).",
+        shortIntro: "Software engineer with hands-on experience in C#/.Net, Python, Java and SQL, dedicated to continuous learning and improvement. I am driven to contribute to innovative projects while enhancing my skills in a collaborative environment.",
         longIntro: [
-            "Over the last year, I have focused on Industry 4.0 and digital transformation, working across the pipeline from CAD models to AR / VR applications.",
-            "I also have a solid foundation in cloud computing, big data, machine learning, and IoT.",
-            "My broad skill set allows me to tackle challenges across diverse industries, including finance and technology, where I can leverage data - driven solutions and innovative technologies."
+            "I possess a growing foundation in various programming languages and technologies, fueled by a passion for problem-solving. Despite being early in my software engineering career, I have gained practical experience that enables me to contribute effectively across various industries.",
+            "Currently, I am working on Industry 4.0 projects, using Python to automate CAD workflow processes and C# to build AR/VR applications. My curiosity extends into areas like cloud computing, big data, and machine learning, and I am excited to further explore these technologies to deliver impactful solutions.",
+            "With an MSc in Computer Science and prior experience in finance, I bring a blend of analytical thinking and technical skills to every project. I am eager to continue developing my expertise, collaborating with diverse teams, and applying innovative technologies to solve complex problems."
         ]
     }
 ]
 
 export const portfolio = [
     {
-        intro: "My projects in augmented reality (AR), virtual reality (VR) and 2D."
+        intro: "Projects in AR, VR, and Interactive 2D Development"
     }    
 ]
 
@@ -40,14 +37,14 @@ export const projects = [
         title: "AR Escape Room",
         subtitle: "Augmented Reality",
         description:
-            "Explore the use of augmented reality, Microsoft HoloLens 2, with people with visual impairments.",
+            "Conducted an exploratory study in collaboration with an association for people with visual impairments. Designed and implemented gamified tasks using augmented reality to assess usability and accessibility.",
         image: projectAREscapeRoomMainImage
     },
     {
         title: "Caius Adventures VR",
         subtitle: "Virtual Reality",
         description:
-            "My very first VR video game using a Quest 2.",
+            "Developed a low-poly virtual reality adventure game using Unity and Blender. Created all assets and textures, resulting in an immersive gaming experience.",
         image: projectCaiusAdventuresVRMainImage
     },
     {
@@ -77,10 +74,6 @@ export const skills = [
             {
                 name: "SQL",
                 image: logoLanguageSQL
-            },
-            {
-                name: "C/C++",
-                image: logoLanguageCpp
             }
         ],
         technologies: [
@@ -91,14 +84,6 @@ export const skills = [
             {
                 name: "Blender",
                 image: blenderLogo
-            },
-            {
-                name: "Photoshop",
-                image: photoshopLogo
-            },
-            {
-                name: "Unreal Engine",
-                image: unrealEngineLogo
             }
         ]
     }
