@@ -19,11 +19,13 @@ export const textAboutMe = [
     {
         shortIntro: "Software engineer with hands-on experience in C#/.Net, Python, Java and SQL, dedicated to continuous learning and improvement. I am driven to contribute to innovative projects while enhancing my skills in a collaborative environment.",
         longIntro: [
-            "I possess a growing foundation in various programming languages and technologies, fueled by a passion for problem-solving. Despite being early in my software engineering career, I have gained practical experience that enables me to contribute effectively across various industries.",
-            "Currently, I am working on Industry 4.0 projects, using Python to automate CAD workflow processes and C# to build AR/VR applications. My curiosity extends into areas like cloud computing, big data, and machine learning, and I am excited to further explore these technologies to deliver impactful solutions.",
+            "I possess a growing foundation in various programming languages and technologies, fueled by a passion for problem-solving. I have gained practical experience that enables me to contribute effectively across various industries.",
+            "Currently, I am working on Industry 4.0 projects, digital transformation, using Python to automate 3D data workflow processes and C# to build applications in Unity (.Net Core). My curiosity extends into areas like cloud computing, big data, and machine learning, and I am excited to further explore these technologies to deliver impactful solutions.",
             "With an MSc in Computer Science and prior experience in finance, I bring a blend of analytical thinking and technical skills to every project. I am eager to continue developing my expertise, collaborating with diverse teams, and applying innovative technologies to solve complex problems."
         ]
     }
+
+
 ]
 
 export const portfolio = [
