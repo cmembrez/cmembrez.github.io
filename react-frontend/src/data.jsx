@@ -17,11 +17,12 @@ import linkedInLogo from './assets/socialLinks/LI-In-Bug.png';
 
 export const textAboutMe = [
     {
-        shortIntro: "Software engineer with hands-on experience in C#/.Net, Python, Java and SQL, dedicated to continuous learning and improvement. I am driven to contribute to innovative projects while enhancing my skills in a collaborative environment.",
+        shortIntro: "Software engineer specialized in .NET backend and interactive 3D/XR applications for industrial digitalization. Experienced in Unity (C#), and automation of 3D workflows, bridging immersive technologies with enterprise systems.",
+
         longIntro: [
-            "I possess a growing foundation in various programming languages and technologies, fueled by a passion for problem-solving. I have gained practical experience that enables me to contribute effectively across various industries.",
-            "Currently, I am working on Industry 4.0 projects, digital transformation, using Python to automate 3D data workflow processes and C# to build applications in Unity (.Net Core). My curiosity extends into areas like cloud computing, big data, and machine learning, and I am excited to further explore these technologies to deliver impactful solutions.",
-            "With an MSc in Computer Science and prior experience in finance, I bring a blend of analytical thinking and technical skills to every project. I am eager to continue developing my expertise, collaborating with diverse teams, and applying innovative technologies to solve complex problems."
+            "I design and develop software solutions that integrate enterprise systems, real-world data, and interactive 3D/XR applications, making industrial processes more accurate, collaborative, and efficient.",
+            "I currently work on Industry 4.0 projects that combine Unity (C#) with .NET backends and Python automation pipelines for 3D assets, gaining hands-on experience in transforming complex technologies into practical solutions for industrial use.",
+            "With an MSc in Computer Science and earlier experience managing investment funds, I bring both strong technical expertise and an analytical mindset. I am eager to keep expanding my skills, collaborate across disciplines, and contribute to impactful digital transformation initiatives."
         ]
     }
 
@@ -37,23 +38,23 @@ export const portfolio = [
 export const projects = [
     {
         title: "AR Escape Room",
-        subtitle: "Augmented Reality",
+        subtitle: "Human-Centric AR",
         description:
-            "Conducted an exploratory study in collaboration with an association for people with visual impairments. Designed and implemented gamified tasks using augmented reality to assess usability and accessibility.",
+            "Exploratory AR project in collaboration with an association for people with visual impairments. Focused on usability, accessibility, and human-centric design in digital environments.",
         image: projectAREscapeRoomMainImage
     },
     {
         title: "Caius Adventures VR",
-        subtitle: "Virtual Reality",
+        subtitle: "VR Prototype",
         description:
-            "Developed a low-poly virtual reality adventure game using Unity and Blender. Created all assets and textures, resulting in an immersive gaming experience.",
+            "Created an interactive VR experience using Unity and Blender. Gained hands-on experience in 3D asset workflows, performance optimization, and immersive interaction design.",
         image: projectCaiusAdventuresVRMainImage
     },
     {
         title: "Space Invaders - Crazy Ludi",
-        subtitle: "2D Java Game",
+        subtitle: "2D Game Prototype",
         description:
-            "A version of Space Invaders using Java with a hint to my passion for piano.",
+            "Rebuilt Space Invaders in Java, integrating game mechanics, UI, and custom features. Early project demonstrating programming fundamentals and creativity.",
         image: projectSpaceInvadersCrazyLudiMainImage
     }
 ];
